@@ -5,11 +5,17 @@ Python script that would change the PATH and JAVA_HOME variables windows registr
 The script is written in python and must be run with administrative privelege. In the command prompt or  powershell type 
 <code> python JavaEnvironmentHandler.py [options] [arguments] </code>
 <p>Options</p>
-<li>
-  <ul> -u INDEX /t changes USER environment settings </ul>  
-  <ul> -s INDEX /t changes SYSTEM/LOCAL MACHINE environment settings </ul>  
-  <ul> -a "PATH" /t add the path of java home directory to a text file</ul>
-  <ul> -r  /t reads the java home directories that is written on a file </ul>  
-</li>
+<ul>
+  <li> -u INDEX /t changes USER environment settings </li>  
+  <li> -s INDEX /t changes SYSTEM/LOCAL MACHINE environment settings </li> 
+  <li> -a "PATH" /t add the path of java home directory to a text file </li>
+  <li> -r  /t reads the java home directories that is written on a file </li>  
+</ul>
 
 
+
+<h1> Issues </h1>
+<ol>
+  <li>There seems to be a problem when changing system variables, windows registry and environment variables are changed but other applications doesn't respond immediately </li>
+  <li>Problems in the .exe file </li>
+</ol>
