@@ -6,10 +6,10 @@ The script is written in python and must be run with administrative privelege. I
 <code> python JavaEnvironmentHandler.py [options] [arguments] </code>
 <p>Options</p>
 <ul>
-  <li> -u INDEX /t changes USER environment settings </li>  
-  <li> -s INDEX /t changes SYSTEM/LOCAL MACHINE environment settings </li> 
-  <li> -a "PATH" /t add the path of java home directory to a text file </li>
-  <li> -r  /t reads the java home directories that is written on a file </li>  
+  <li> -u INDEX &#9; changes USER environment settings </li>  
+  <li> -s INDEX &#9; changes SYSTEM/LOCAL MACHINE environment settings </li> 
+  <li> -a "PATH" &#9; add the path of java home directory to a text file </li>
+  <li> -r  &#9; reads the java home directories that is written on a file </li>  
 </ul>
 
 
